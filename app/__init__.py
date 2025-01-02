@@ -1,5 +1,5 @@
 from . import chatbot
-from .chatbot import voicebot
+from .chatbot import api, browser, advanced_chatbot,chatbot_base, chatbot, speech_handler
 
 from flask import Flask
 

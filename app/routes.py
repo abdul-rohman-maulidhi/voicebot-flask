@@ -1,5 +1,5 @@
 from flask import Blueprint, render_template, jsonify, request
-from .chatbot.voicebot import AdvancedChatbot
+from .chatbot.advanced_chatbot import AdvancedChatbot
 
 main = Blueprint("main", __name__)
 
